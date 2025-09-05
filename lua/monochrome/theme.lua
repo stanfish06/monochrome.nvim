@@ -37,6 +37,9 @@ end
 
 function M.load_syntax()
   local syntax = {
+    LspReferenceText  = { bg = colors.gray2 },
+    LspReferenceRead  = { bg = colors.gray2 },
+    LspReferenceWrite = { bg = colors.gray2 },
 
     Normal = { fg = colors.fg, bg = colors.bg },
     Terminal = { fg = colors.fg, bg = colors.bg },
